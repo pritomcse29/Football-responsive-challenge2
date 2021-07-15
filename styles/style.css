@@ -229,3 +229,25 @@ nav ul{
         height: 299px;  
     }
 }
+/*footer  style*/
+.footer-part{
+    width: 483.87px;
+    height: 213px;
+    margin: 475px 400px 163px 300px;
+}
+/* .footer-logo-image img{
+    width:462px;
+    height: 300px;
+    
+} */
+/*media query for footer part*/
+@media only screen and (max-width:688px){
+    .footer-part{
+        
+        margin: 400px 71px 43px 100px;
+    }
+    .footer-logo-image img{
+        width: 125.8px;
+        height: 29.98px;
+} 
+}

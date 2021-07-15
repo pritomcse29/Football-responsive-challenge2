@@ -240,11 +240,17 @@ nav ul{
   
     justify-content:center;
     flex-direction: row;
-    margin-left: 370px;
+    margin-left: 205px;
     
 }
 .social-link .icon{
     margin-left: 50px;
+}
+.footer-text p{
+    text-align:50%;
+    margin-left: 250px;
+    font-size: 18px;
+    
 }
 /* .footer-logo-image img{
     width:462px;
@@ -271,4 +277,11 @@ nav ul{
 .social-link .icon{
     margin-left: 10px;
 }
+.footer-text p{
+    text-align:50%;
+    margin-left: -25px;
+    font-size: 18px;
+    
+}
+
 }

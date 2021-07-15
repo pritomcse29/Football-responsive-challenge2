@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+/*header part style start*/
+
+.bgcolor-top-section{
+    background-color: #2D25A0;
+    animation: sliding infinite ease-in-out 0.5s;
+}
+nav ul li{
+    list-style: none;
+    margin-left: 36px;
+    margin-top: 52px;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 16px;
+}
+nav ul{
+    display: flex;
+   
+}
+.image-header-part img{
+    width: 556.01px;
+    height: 438px;
+    margin: 153px 132.99px 86px;
+}
+.text-button-image{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.text-button{
+    margin: 121px 110px 240px 156px;
+}
+.header-text-part{
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 64px;
+}
+.header-button-part{
+    color: #FFFFFF;
+    background-color: #E02C6D;
+    padding: 10px 20px;
+    font-weight:500;
+    font-size: 16px;
+    text-decoration: none;
+}
+/*animation for header part*/
+@keyframes sliding{
+    0%{
+        background-color: blueviolet;
+    }
+   25%{
+        background-color: chocolate;
+    }
+    50%{
+        background-color: crimson;
+    }
+    75%{
+        background-color: darkgreen;
+    }
+    100%{
+            background-color: darkseagreen;
+    }
+}
+/*media query for header part and only for phone*/
+@media only screen and (max-width:688px)
+{
+    header{
+        Width:360px;
+        Height:750px;
+    }
+    .bgcolor-top-section{
+        background-color: #2D25A0;
+    }
+    nav ul li{
+        list-style: none;
+        margin-left: 10px;
+        margin-top: 5px;
+        color: #FFFFFF;
+        font-weight: 500;
+        font-size: 16px;
+    }
+    nav ul{
+        display:block;
+       
+    }
+    .image-header-part img{
+        width: 329px;
+        height: 259.17px;
+        margin: 30px 16px 61.83px 15px;
+    }
+    .text-button-image{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .text-button{
+        margin: 20px 66px 30px 16px;
+    }
+    .header-text-part{
+        color: #FFFFFF;
+        font-weight: bold;
+        font-size: 36px;
+    }
+    .header-button-part{
+        color: #FFFFFF;
+        background-color: #E02C6D;
+        padding: 10px 20px;
+        font-weight:500;
+        font-size: 16px;
+        text-decoration: none;
+    }
+    
+}
